@@ -14,3 +14,6 @@ include $(TOP)/configure/CONFIG_APP
 #IOCS_APPL_TOP = <the top of the application as seen by the IOC>
 
 -include $(TOP)/configure/CONFIG_SITE
+-include $(TOP)/../CONFIG_SITE
+-include $(TOP)/../CONFIG_SITE.$(EPICS_HOST_ARCH)
+-include $(TOP)/../CONFIG_SITE.$(EPICS_HOST_ARCH).Common
